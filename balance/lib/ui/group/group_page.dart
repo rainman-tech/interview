@@ -61,10 +61,22 @@ class _GroupPageState extends State<GroupPage> {
                 children: [
                   const SizedBox(height: 18),
                   Center(
-                    child: Text(snapshot.data?.name ?? ""),
+                    child: Text(
+                      snapshot.data?.name ?? "",
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                      ),
+                    ),
                   ),
                   Center(
-                    child: Text(snapshot.data?.balance.toString() ?? ""),
+                    child: Text(
+                      snapshot.data?.balance.toString() ?? "",
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20,
+                      ),
+                    ),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(
@@ -86,6 +98,7 @@ class _GroupPageState extends State<GroupPage> {
                         );
                       }
                       return ListView.builder(
+                        physics: const NeverScrollableScrollPhysics(),
                         scrollDirection: Axis.vertical,
                         shrinkWrap: true,
                         itemCount: snapshot.requireData.length,
@@ -136,6 +149,9 @@ class _GroupPageState extends State<GroupPage> {
                       );
                     },
                   ),
+                  const SizedBox(
+                    height: 80,
+                  )
                 ],
               ),
             );
