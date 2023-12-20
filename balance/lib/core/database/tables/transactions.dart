@@ -5,7 +5,8 @@ class Transactions extends Table {
   DateTimeColumn get createdAt => dateTime()();
   IntColumn get amount => integer().withDefault(const Constant(0))();
 
-  TextColumn get groupId => text().customConstraint('NOT NULL REFERENCES groups(id) ON DELETE CASCADE')();
+  TextColumn get groupId => text()
+      .customConstraint('NOT NULL REFERENCES groups(id) ON DELETE CASCADE')();
 
   @override
   Set<Column<Object>>? get primaryKey => {id};

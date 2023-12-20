@@ -1,3 +1,4 @@
+import 'package:balance/config/theme.dart';
 import 'package:balance/main.config.dart';
 import 'package:balance/router.dart';
 import 'package:flutter/material.dart';
@@ -20,17 +21,14 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: MaterialApp.router(
-        routeInformationProvider: appRouter.routeInformationProvider,
-        routeInformationParser: appRouter.routeInformationParser,
-        routerDelegate: appRouter.routerDelegate,
-      ),
+      theme: AppTheme.light,
+      themeMode: ThemeMode.light,
+      debugShowCheckedModeBanner: false,
+      routeInformationProvider: appRouter.routeInformationProvider,
+      routeInformationParser: appRouter.routeInformationParser,
+      routerDelegate: appRouter.routerDelegate,
     );
   }
 }
