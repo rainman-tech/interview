@@ -24,6 +24,10 @@ Correct any mistakes or update transaction amounts as needed. The edit feature e
 
 ## Screenshots
 
-<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044181.png" width="250"> <img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044192.png" width="250"> <img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044197.png" width="250"> <img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044204.png" width="250"> <img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044207.png" width="250"> <img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044214.png" width="250">
-
+<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044181.png" width="250">
+<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044192.png" width="250">
+<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044197.png" width="250">
+<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044214.png" width="250">
+<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044204.png" width="250">
+<img src="https://github.com/rainman-tech/interview/blob/main/balance/screenshots/Screenshot_1703044207.png" width="250">
 
